@@ -2,8 +2,8 @@
 
 
 Group member names and email:
--Orobosa Ogbeide 
---oogbe001@ucr.edu
+- Orobosa Ogbeide 
+-- oogbe001@ucr.edu
 
 -Bryan Dang
 --bdang014@ucr.edu
