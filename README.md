@@ -5,24 +5,21 @@ Group member names and email:
 - Orobosa Ogbeide 
 - oogbe001@ucr.edu
 
-- Bryan Dang
-- bdang014@ucr.edu
 
 
 Title of project
-- Machine Mamba 
+- Naval Power
 
 
 What app do you plan to work on? 
-- iOS Application 
+- C++ Appliation 
 
 Why is it important and interesting?
-- iOS game.
+- The application will be important due to having an the ability to somewhat quantify the power of a modern military naval force based on what the user deems fit. 
 
 What language/tools/technology you plan to use?
-- Swift
-- C++
-- Javascript
+- Language: C++
+- Tools: XCode 
 
 What will be the input/output of your project?
-- TBD
+- The user input will consist of a choice of whether to build out a USN or PLAN fleet. From there the user will have the freedom of producing their own fleet and ship customization based on the limited funds provided. After all purchased/customizations are made the user will then recieve an output showing the 'Naval Power Index' based on their choices.
