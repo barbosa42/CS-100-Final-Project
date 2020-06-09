@@ -29,7 +29,11 @@ What will be the input/output of your project?
 ![class-diagram](https://user-images.githubusercontent.com/41599814/84106088-0ecf1c00-a9cf-11ea-9d28-9e9c8b229d9d.png)
 
 # Final Report 
-- *NOTE COMPLETE* A complete report about your project
-- *NOTE COMPLETE* Screenshot of possible input/output after running your application
-- *NOTE COMPLETE* You should write details so that someone can run your code easily
+- Welcome to Naval Power! ⚓️ This is an interactive project still in development. The basis of the project right now is simple to ask the user for an input shown here in the menu: 
+<img width="562" alt="Screen Shot 2020-06-08 at 11 10 33 PM" src="https://user-images.githubusercontent.com/41599814/84112293-5066c380-a9dd-11ea-951d-f6e5cee51926.png">-
 
+- If you choose to check out the US Navy 7th Fleet🇺🇸 this would be the result: 
+<img width="562" alt="Screen Shot 2020-06-08 at 11 13 47 PM" src="https://user-images.githubusercontent.com/41599814/84112520-c703c100-a9dd-11ea-8870-a4729bc1d82c.png">
+
+- If you choose to check out the Peoples Liberation Army Navy 5th Fleet🇨🇳 this would be the result: 
+<img width="564" alt="Screen Shot 2020-06-08 at 11 14 02 PM" src="https://user-images.githubusercontent.com/41599814/84112568-d71ba080-a9dd-11ea-89ef-cc310e4c334a.png">
