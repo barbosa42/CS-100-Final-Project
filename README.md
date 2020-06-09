@@ -29,7 +29,7 @@ What will be the input/output of your project?
 ![class-diagram](https://user-images.githubusercontent.com/41599814/84106088-0ecf1c00-a9cf-11ea-9d28-9e9c8b229d9d.png)
 
 # Final Report 
-- A complete report about your project
-- Screenshot of possible input/output after running your application
-- You should write details so that someone can run your code easily
+- *NOTE COMPLETE* A complete report about your project
+- *NOTE COMPLETE* Screenshot of possible input/output after running your application
+- *NOTE COMPLETE* You should write details so that someone can run your code easily
 
