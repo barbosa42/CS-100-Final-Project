@@ -19,6 +19,7 @@ class Type_001_Class_Aircraft_Carrier : public PLAN_Ship{
     int shipPrice = 8;
     int PI = 8;
 public:
+    void accept(Visitory &v);
     virtual void ShipName() {std::cout << "- PLANN Hong Kong\n";}
     virtual void shipHullNumber() {std::cout << "- CV-001\n";}
     void shipClassName() {std::cout << "- Type 001 Class Aircraft Carrier\n";}

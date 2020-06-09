@@ -15,7 +15,7 @@
 
 class PLAN_Ship {
 public:
-    PLAN_Ship() {}
+    virtual ~PLAN_Ship() {}
     virtual void ShipName() = 0;
     virtual void shipHullNumber() = 0; 
     virtual void shipClassName() = 0;
@@ -26,6 +26,7 @@ public:
     
     virtual void assignHomePort() = 0;
     virtual void assignAdmiral() = 0;
+    virtual void accept(class Visitory &v) = 0;
 };
 
 #endif // PLAN_Ship_h

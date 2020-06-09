@@ -19,6 +19,7 @@ private:
     int shipPrice = 5;
     int PI = 6;
 public:
+    void accept(Visitor &v); 
     virtual void ShipName() {std::cout << "- USS Monterey\n";}
     virtual void shipHullNumber() {std::cout << "- CCG-61\n";}
     void shipClassName() {std::cout << "- Ticonderoga Class Cruiser\n";}

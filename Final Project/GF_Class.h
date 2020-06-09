@@ -19,6 +19,7 @@ private:
     int shipPrice = 8;
     int PI = 10;
 public:
+    void accept(Visitor &v); 
     virtual void ShipName() {std::cout << "- USS Gerald R. Ford\n";}
     virtual void shipHullNumber() {std::cout << "- CVN-75\n";}
     void shipClassName() {std::cout << "- Gerald Ford Class Aircraft Carrier\n";}

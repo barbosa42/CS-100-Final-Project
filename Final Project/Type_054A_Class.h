@@ -18,6 +18,7 @@ class Type_054A_CLass_Frigate : public PLAN_Ship{
     int shipPrice = 1;
     int PI = 2;
 public:
+    void accept(Visitory &v);
     virtual void ShipName() {std::cout << "- PLANN Zheng He\n";}
     virtual void shipHullNumber() {std::cout << "- FFG-15\n";}
     void shipClassName() {std::cout << "- Type 054A Class Frigate\n";}

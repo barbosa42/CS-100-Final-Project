@@ -27,6 +27,8 @@ public:
     
     virtual void assignHomePort() = 0;
     virtual void assignAdmiral() = 0;
+    virtual void accept(class Visitor &v) = 0;
+
 };
 
 

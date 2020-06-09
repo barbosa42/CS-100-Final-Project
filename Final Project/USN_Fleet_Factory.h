@@ -58,7 +58,7 @@ public:
     {
         if(input == "Frigate")
         {
-            return new WH_CLass_Frigate();
+            return new WH_Class_Frigate();
         }
         return NULL;
     }
