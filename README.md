@@ -1,5 +1,5 @@
 # CS 100 Final Project
-# Naval Power ⚓️
+# ⚓️ Naval Power ⚓️
 
 
 Group member names and email:
@@ -43,7 +43,7 @@ What will be the input/output of your project?
 - Overall the application does encorporate various design patterns, although their are still a view features that I would like to include such as allowing the user to utilize a PowerBudget and construct their own fleet where they can name their own ships, build their own fleets, etc. 
 
 
-# Updates 
+# Naval Power Updates⚙️
 ## Update v1.0
 - Update v1.01: Construct the base USN_Ship and PLAN_Ship classes and their subclasses. This update will consist of just using the factory method to produce those various ships. 
 - Update v1.02: Include a decorator in order to pre-customize the various ships based on the base class methods. (Homeport, PowerIndex, etc) NOTE: Personal customization won't be available until v2.0 is released. 
