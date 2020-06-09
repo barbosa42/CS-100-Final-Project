@@ -24,7 +24,7 @@ public:
     void shipClassName() {std::cout << "- William Halsey Class Frigate\n";}
     void shipType() {std::cout << "- Destroyer\n";}
     void arament() {std::cout << "- 32 Cell Mk 41 VLS, 1 Phalenx CIWS, 8 Harpoon missiles, 1 57mm gun, 1 SH-60 Seahawk\n";}
-    int shipCost() {return shipPrice;}
+    int shipCost() {std::cout << "- Ship Cost:$" << shipPrice << " billion\n"; return shipPrice;}
     int powerIndex() {return PI;}
     virtual void assignHomePort() {std::cout << "- Home Port:  \n";}
     virtual void assignAdmiral() {std::cout << "- Commanding Officer:  \n";}

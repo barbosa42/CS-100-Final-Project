@@ -37,6 +37,7 @@ int main()
      };
     USN_Acitivity_Visitor active;
     
+        
     USN_Fleet_Factory* makeNewShip;
     USN_Ship *make;
     
@@ -48,7 +49,8 @@ int main()
     USN_Ship* details = new GF_Decorator(new USN_Decorator(new GF_Class_Aircraft_Carrier()));
     details->assignHomePort();
     details->assignAdmiral();
-     
+    
+    
     
     std::cout << "-------------------------------------------\n";
     make = makeNewShip->CreateAircraftCarrier("Aircraft Carrier");
@@ -58,6 +60,7 @@ int main()
     make-> shipClassName();
     make-> shipType();
     make-> arament();
+    make->shipCost();
     std::cout << "-------------------------------------------\n";
     make = makeNewShip->CreateCruiser("Cruiser");
     ships[1]->accept(active);
@@ -66,6 +69,7 @@ int main()
     make-> shipClassName();
     make-> shipType();
     make-> arament();
+    make->shipCost();
     std::cout << "-------------------------------------------\n";
     make = makeNewShip->CreateDestroyer("Destroyer");
     ships[2]->accept(active);
@@ -74,6 +78,7 @@ int main()
     make-> shipClassName();
     make-> shipType();
     make-> arament();
+    make->shipCost();
     std::cout << "-------------------------------------------\n";
     make = makeNewShip->CreateFrigate("Frigate");
     ships[3]->accept(active);
@@ -82,6 +87,7 @@ int main()
     make-> shipClassName();
     make-> shipType();
     make-> arament();
+    make->shipCost();
     std::cout << "-------------------------------------------\n";
     }
     if(choice == 2) {
@@ -111,6 +117,7 @@ int main()
     construct-> shipClassName();
     construct-> shipType();
     construct-> arament();
+    construct->shipCost();
     std::cout << "-------------------------------------------\n";
     construct = makeNewVessel->CreateCruiser("Cruiser");
     vessels[1]->accept(activity);
@@ -119,6 +126,7 @@ int main()
     construct-> shipClassName();
     construct-> shipType();
     construct-> arament();
+    construct->shipCost();
     std::cout << "-------------------------------------------\n";
     construct = makeNewVessel->CreateDestroyer("Destroyer");
     vessels[2]->accept(activity);
@@ -127,6 +135,7 @@ int main()
     construct-> shipClassName();
     construct-> shipType();
     construct-> arament();
+    construct->shipCost();
     std::cout << "-------------------------------------------\n";
     construct = makeNewVessel->CreateFrigate("Frigate");
     vessels[3]->accept(activity);
@@ -135,9 +144,11 @@ int main()
     construct-> shipClassName();
     construct-> shipType();
     construct-> arament();
+    construct->shipCost();
     std::cout << "-------------------------------------------\n";
     }
     
     return 0;
     
 }
+

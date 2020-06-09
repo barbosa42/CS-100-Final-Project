@@ -31,6 +31,8 @@ public:
     
     virtual int shipCost() {m_Decorator->shipCost();{return 0;}}
     virtual int powerIndex() {m_Decorator->powerIndex();{return 0;}}
+    
+    virtual void accept(class Visitor &v) {}
 };
 
 class GF_Decorator : public USN_Decorator{
@@ -41,6 +43,24 @@ public:
             USN_Decorator::assignHomePort();
             std::cout << "San Diego, California.\n";
         }
+<<<<<<< HEAD
+=======
+        virtual void assignAdmiral()
+        {
+            USN_Decorator::assignAdmiral();
+            std::cout << "[RDML] Rear Admiral Brian Hunter.\n";
+        }
+        virtual int shipCost()
+        {
+            USN_Decorator::shipCost();
+            return 0;
+        }
+        virtual int powerIndex()
+        {
+            USN_Decorator::powerIndex();
+            return 0;
+        }
+>>>>>>> 512e337bae38d2111a4ad37ac23e2578e2b12d6b
 };
 
 class T_Decorator : public USN_Decorator{
@@ -148,3 +168,4 @@ public:
         }
 };
 #endif // USN_Decorator_h
+
