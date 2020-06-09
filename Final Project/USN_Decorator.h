@@ -36,35 +36,10 @@ public:
 class GF_Decorator : public USN_Decorator{
 public:
         GF_Decorator(USN_Ship* dc):USN_Decorator(dc) {}
-        virtual void ShipName()
-        {
-            USN_Decorator::ShipName();
-            std::cout << "\nNamesake derives from the famous Cold War Admiral.\n";
-        }
-        virtual void shipHullNumber()
-        {
-            USN_Decorator::shipHullNumber();
-            std::cout << "\nStarting Hull Number is 75.\n";
-        }
-        virtual void shipType()
-        {
-            USN_Decorator::shipType();
-            std::cout << "\nNuclear Aircraft Carrier.\n";
-        }
-        virtual void armanent()
-        {
-            USN_Decorator::arament();
-            std::cout << "\nBlue Water Capability.\n";
-        }
-        virtual void assignHomePort()
+        void assignHomePort()
         {
             USN_Decorator::assignHomePort();
             std::cout << "San Diego, California.\n";
-        }
-        virtual void assignAdmiral()
-        {
-            USN_Decorator::assignAdmiral();
-            std::cout << "[RDML] Rear Admiral Brian Hunter.\n";
         }
 };
 
