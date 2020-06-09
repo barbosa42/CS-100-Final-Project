@@ -24,7 +24,7 @@ What language/tools/technology you plan to use?
 What will be the input/output of your project?
 - The input will consist of predetermined values inside the interfact (USN_Ship and PLAN_Ship). The user will then be able to witness various information on fleets and chracteristics gathered by using various design patterns. 
 
-# Class Diagram 
+# Naval Power Class Diagram 
 - Description: Their is a client (main) that uses USN_Ship Class <Interface> as well as <PLAN_Ship Class>. This then allows access into using part of the factory method pattern in order to produce various ship's (products). In addition to the ship production their is also a two decorator's (USN_Decorator & PLAN_Decorator) that customize the various ships. Lastly their is a visistor class that visists each ship class and stamps it as "Active".  
 ![class-diagram](https://user-images.githubusercontent.com/41599814/84106088-0ecf1c00-a9cf-11ea-9d28-9e9c8b229d9d.png)
 
