@@ -63,36 +63,6 @@ public:
         return NULL;
     }
 };
-/*
-class USS_T : public USN_Fleet_Factory
-{
-public:
-    USN_Ship* CreateCruiser()
-    {
-        return new T_Class_Cruiser;
-        
-    }
-};
 
-class USS_AB : public USN_Fleet_Factory
-{
-public:
-    USN_Ship* CreateDestroyer()
-    {
-        return new AB_Class_Destroyer;
-        
-    }
-};
-
-class USS_WH : public USN_Fleet_Factory
-{
-public:
-    USN_Ship* CreateFrigate()
-    {
-        return new WH_CLass_Frigate;
-        
-    }
-};
-*/
 #endif // USN_Fleet_Factory_h
 

@@ -16,7 +16,7 @@
 
 class USN_Ship {
 public:
-    USN_Ship() {};
+    virtual ~USN_Ship() {}
     virtual void ShipName() = 0;
     virtual void shipHullNumber() = 0; 
     virtual void shipClassName() = 0;
@@ -24,6 +24,9 @@ public:
     virtual void arament() = 0;
     virtual int shipCost() = 0;
     virtual int powerIndex() = 0;
+    
+    virtual void assignHomePort() = 0;
+    virtual void assignAdmiral() = 0;
 };
 
 

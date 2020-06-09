@@ -64,45 +64,5 @@ public:
         return NULL;
     }
 };
-/*
-class PLANN_HK : public PLAN_Fleet_Factory
-{
-public:
-    PLAN_Ship* CreateAircraftCarrier()
-    {
-        return new Type_001_Class_Aircraft_Carrier;
-        
-    }
-};
 
-class PLANN_S : public PLAN_Fleet_Factory
-{
-public:
-    PLAN_Ship* CreateCruiser()
-    {
-        return new Type_055_Class_Cruiser;
-        
-    }
-};
-
-class PLANN_B : public PLAN_Fleet_Factory
-{
-public:
-    PLAN_Ship* CreateDestroyer()
-    {
-        return new Type_052D_Class_Destroyer;
-        
-    }
-};
-
-class PLANN_ZH : public PLAN_Fleet_Factory
-{
-public:
-    PLAN_Ship* CreateFrigate()
-    {
-        return new Type_054A_CLass_Frigate;
-        
-    }
-};
-*/
 #endif // PLAN_Fleet_Factory_h

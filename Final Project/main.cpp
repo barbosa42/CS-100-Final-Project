@@ -12,18 +12,26 @@
 #include <string>
 #include "USN_Fleet_Factory.h"
 #include "PLAN_Fleet_Factory.h"
-
-
+#include "USN_Decorator.h"
+#include "PLAN_Decorator.h"
 
 int main()
 {
+
+    
     USN_Fleet_Factory* makeNewShip;
     USN_Ship *make;
     
     makeNewShip = new USN_Ship_Factory;
 
     
-    std::cout << "USN Ships\n";
+    std::cout << "[USN] 7th Fleet\n";
+    
+    USN_Ship* details = new GF_Decorator(new USN_Decorator(new GF_Class_Aircraft_Carrier()));
+    details->assignHomePort();
+    details->assignAdmiral();
+
+    
     std::cout << "-------------------------------------------\n";
     make = makeNewShip->CreateAircraftCarrier("Aircraft Carrier");
     make-> ShipName();
@@ -54,13 +62,20 @@ int main()
     make-> arament();
     std::cout << "-------------------------------------------\n";
     
+
     
     PLAN_Fleet_Factory* makeNewVessel;
     PLAN_Ship *construct;
     
     makeNewVessel = new PLAN_Ship_Factory;
     
-    std::cout << "\n\nPLAN Vessels\n";
+    std::cout << "\n\n[PLAN] 5th Fleet\n";
+    
+    PLAN_Ship* PLAN_details = new Type_001_Decorator(new PLAN_Decorator(new Type_001_Class_Aircraft_Carrier()));
+    PLAN_details->assignHomePort();
+    PLAN_details->assignAdmiral();
+
+    
     std::cout << "-------------------------------------------\n";
     construct = makeNewVessel->CreateAircraftCarrier("Aircraft Carrier");
     construct-> ShipName();

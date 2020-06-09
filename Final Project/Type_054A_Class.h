@@ -25,6 +25,8 @@ public:
     void arament() {std::cout << "- 32 Universal Cell VLS, 1 76mm gun, 2 Type 1130 CIWS, 1 Z-9 Harbin\n";}
     int shipCost() {return shipPrice;}
     int powerIndex() {return PI;}
+    virtual void assignHomePort() {std::cout << "- Home Port:  \n";}
+    virtual void assignAdmiral() {std::cout << "- Commanding Officer:  \n";}
     
 };
 

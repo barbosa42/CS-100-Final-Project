@@ -25,7 +25,8 @@ public:
     void arament() {std::cout << "- 32 Cell Mk 41 VLS, 1 Phalenx CIWS, 8 Harpoon missiles, 1 57mm gun, 1 SH-60 Seahawk\n";}
     int shipCost() {return shipPrice;}
     int powerIndex() {return PI;}
-    
+    virtual void assignHomePort() {std::cout << "- Home Port:  \n";}
+    virtual void assignAdmiral() {std::cout << "- Commanding Officer:  \n";}
 };
 
 #endif // WH_Class_h
