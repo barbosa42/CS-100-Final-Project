@@ -1,4 +1,4 @@
-# CS 100 Programming Project
+# CS 100 Final Project
 # Naval Power ⚓️
 
 
@@ -41,3 +41,15 @@ What will be the input/output of your project?
 
 
 - Overall the application does encorporate various design patterns, although their are still a view features that I would like to include such as allowing the user to utilize a PowerBudget and construct their own fleet where they can name their own ships, build their own fleets, etc. 
+
+
+# Updates 
+## Update v1.0
+- Update v1.01: Construct the base USN_Ship and PLAN_Ship classes and their subclasses. This update will consist of just using the factory method to produce those various ships. 
+- Update v1.02: Include a decorator in order to pre-customize the various ships based on the base class methods. (Homeport, PowerIndex, etc) NOTE: Personal customization won't be available until v2.0 is released. 
+- Update v1.03: Final version 1.0 update that saw the addition of the visitor class so that each ship in their respective fleets were stated as "active". In the future the visitor class will allow user customization to state whether a ship is "Active" or "Reserve" in a fleet.
+
+
+## Update v2.0
+- Update v2.01: Will redesign the entire program to allow user customization instead of a predetermined set of values. 
+
