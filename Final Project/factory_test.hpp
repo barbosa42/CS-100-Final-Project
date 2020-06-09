@@ -26,7 +26,7 @@ TEST(FactoryTestSet, USNShipCost) {
     make = makeAShip->CreateDestroyer("Destroyer");
     EXPECT_EQ(make->shipCost(), 3); 
     make = makeAShip->CreateFrigate("Frigate");
-    EXPECT_EQ(make->shipCost(), 2; 
+    EXPECT_EQ(make->shipCost(), 2); 
 }
 
 TEST(FactoryTestSet, PLANShipCost) {
