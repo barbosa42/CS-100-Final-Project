@@ -31,6 +31,8 @@ public:
     
     virtual int shipCost() {m_Decorator->shipCost();{return 0;}}
     virtual int powerIndex() {m_Decorator->powerIndex();{return 0;}}
+    
+    virtual void accept(class Visitory &v) {}
 };
 
 
